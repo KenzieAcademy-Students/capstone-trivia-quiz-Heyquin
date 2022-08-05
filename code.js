@@ -12,7 +12,7 @@ questionB.innerHTML = ``;
 let currentAnswer;
 let currentQuestion;
 
-let counter = 0;
+let counterNumber = 0;
 let loser = "Sorry :)";
 
 
