@@ -1,6 +1,6 @@
 /* Write your CSS Here. */
 body {
-    background-color: coral;
+    background-color: rgb(219, 135, 104);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
     font-size: 150px;
     text-align: center;
     padding: 8px;
-    text-shadow: 5px 5px 8px rgb(54, 54, 54);
+    text-shadow: 5px 5px 8px rgb(36, 34, 34);
   }
   
   #Main_Box {
@@ -23,7 +23,7 @@ body {
     width: 500px;
     height: 200px;
     top: 80px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(243, 114, 114);
     border-radius: 20%;
     flex-direction: column;
     align-items: center;
