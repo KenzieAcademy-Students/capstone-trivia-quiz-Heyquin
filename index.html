@@ -20,11 +20,20 @@
   </head>
 
   <body>
-    <h1>Open the Developer Tools to see the console output.</h1>
-    <h3>
-      Either right click and select "Inspect" or use the shortcut Option + ⌘ + J
-      (on macOS), or Shift + CTRL + J (on Windows/Linux).
-    </h3>
+    <header>Trivia Quiz</header>
+    <div class="Animated_Box"></div>
+    <div class="Game_Box" id="Main_Box">
+      <div id="Score_Box"></div>
+      <div id="Question_Box"></div>
+      <div id="Input_Answer">
+        <form id="Form" action="" >
+          <label for="answer_input">Answer</label>
+          <input id="answer_input"  type="text" placeholder="What's your answer?" required/>
+          <button id="submit" type="submit">Submit</button>
+          </form>
+      </div>
+    </div>
+
     <script src="code.js"></script>
   </body>
 </html>
